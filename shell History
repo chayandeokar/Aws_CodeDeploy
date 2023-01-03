@@ -1,0 +1,54 @@
+  501  cd Documents/
+  502  mkdir devopsinto2022training
+  503  cd devopsinto2022training/
+  504  ls
+  505  git clone https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/webrepo2022
+  506  ls
+  507  ls
+  508  cd webrepo2022/
+  509  ls
+  510  notepad index.html
+  511  git add index.html
+  512  git commit index.html  -m "first commit code is done by tom"
+  513  git push
+  514  git branch
+  515  git checkout -b newfeature
+  516  git branch
+  517  ls
+  518  cat index.html
+  519  notepad index.html
+  520  git commit index.html  -m "code changed by tom in new branch"
+  521  git push
+  522  git push --set-upstream origin newfeature
+  523  git checkout master
+  524  git fetch -p
+  525  git branch -D newfeature
+  526  git branch
+  527  git  pull
+  528  notepad index.html
+  529  git commit index.html  -m "3rd cnahges"
+  530  git push
+  531  ls
+  532  cat index.html
+  533  grep  welcome  index.html
+  534  echo $?
+  535  grep  Welcome  index.html
+  536  echo $?
+  537  notepad index.html
+  538  git commit index.html -m "next changed"
+  539  git push
+  540  notepad index.html
+  541  git commit index.html -m "bug resolved"
+  542  git push
+  543  notepad index.html
+  544  git commit index.html -m "new ccc"
+  545  git push
+  546  git clone https://github.com/vimallinuxworld13/awscodedeploy.git
+  547  pwd
+  548  ls
+  549  pwd
+  550  ls
+  551  cat index.html
+  552  git add .
+  553  git commit .  -m "all changes"
+  554  git push
